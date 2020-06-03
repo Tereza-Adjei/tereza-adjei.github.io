@@ -1,0 +1,238 @@
+body {
+  margin: 0px;
+}
+
+.box {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Abril Fatface" #222 grey;
+  box-sizing: border-box;
+}
+
+img {
+  width: 1200px;
+  text-align: center;
+}
+
+#anakin {
+  font-size: 80px;
+}
+
+.title {
+  position: absolute;
+  top: 200px;
+  left: 440px;
+  font-size: 40px;
+  line-height: 50px
+}
+
+p {
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 25px;
+  text-shadow: 1px 1px #f2f2f2;
+}
+
+.box h2 {
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 5px;
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+UL {
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 35px;
+  text-shadow: 1px 1px #f2f2f2;
+}
+
+.box h3 {
+  font-family: "Josefin Sans", sans-serif;
+  margin-bottom: 35px;
+  margin-top: 35px;
+  font-size: 20px;
+}
+
+.subtitle {
+  font-family: "Merriweather", serif;
+  font-size: 15px;
+  font-style: italic;
+  display: inline;
+}
+
+.second {
+  display: inline;
+  margin-bottom: 5px;
+}
+
+blockquote {
+  width: 700px;
+  height: 200px;
+  background: #222;
+  font-family: "Abril Fatface", cursive;
+  color: white;
+  margin: auto;
+  margin-left: 400px;
+  margin-top: 50px;
+  font-size: 45px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+}
+
+.quoteone::before {
+  content: "❝";
+  color: white;
+  font-size: 120px;
+  position: absolute;
+  left: 403px;
+  top: 680px;
+}
+
+.quoteone {
+  padding-bottom: 0px;
+  height: 180px;
+}
+
+.quotetwo::before {
+  content: "❝";
+  color: white;
+  font-size: 120px;
+  position: absolute;
+  left: 400px;
+  top: 1490px;
+ 
+}
+
+.quotethree::before {
+  content: "❝";
+  color: white;
+  font-size: 120px;
+  position: absolute;
+  left: 400px;
+  top: 2300px
+}
+
+#one {
+  display: flex;
+  flex-direction: row;
+  width: 40px;
+  height: 40px;
+  background: white;
+  border: none;
+  margin: 5px;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  border-radius: 50%;
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#two {
+  display: flex;
+  flex-direction: row;
+  width: 40px;
+  height: 40px;
+  background: white;
+  border: none;
+  margin: 5px;
+  position: fixed;
+  right: 70px;
+  bottom: 10px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#three {
+  display: flex;
+  flex-direction: row;
+  width: 40px;
+  height: 40px;
+  background: white;
+  border: none;
+  margin: 5px;
+  position: fixed;
+  right: 130px;
+  bottom: 10px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#left {
+  width: 180px;
+  height: 40px;
+  background: white;
+  border: none;
+  margin: 5px;
+  position: fixed;
+  left: 20px;
+  bottom: 10px;
+  border-radius: 30px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 15px;
+  text-align: right;
+  padding-right: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+#one:hover {
+  width: 130px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+#two:hover {
+  width: 130px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+#three:hover {
+  width: 130px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+#left:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#bottomhr {
+  border: 2px solid black;
+  width: 655px;
+  margin-left: 440px
+}
+
+#tophr {position:absolute; border: 1px solid black; width: 1298px; margin: 0px}
+
+.text p {font-size: 15px}
+
+#in {
+  width: 30px;
+  position: fixed;
+  left: 40px;
+  bottom: 26px
+}
+
+#comment {
+  width: 25px;
+  position: fixed;
+  bottom: 20px;
+  right: 143px
+}
+
+#square {
+   width: 26px;
+  position: fixed;
+  bottom: 22px;
+  right: 22px
+}
